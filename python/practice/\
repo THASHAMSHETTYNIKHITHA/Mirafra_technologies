@@ -1,0 +1,12 @@
+x=int(input("enter any number"))
+i=0
+while i<x:
+    rem=x%10
+    x=x/10
+    s=(s*10)+rem
+    if(x==s):
+        print("poly=",s)
+else:
+    print("not poly=",s)
+    
+
